@@ -47,7 +47,6 @@ describe('String Functions', () => {
       expect(cc).to.equal('getStringFromObject')
     })
 
-
     it('returns the correct camel case name of a sentence when written in title case', () => {
       const cc = camelCase('Get String From Object')
 
